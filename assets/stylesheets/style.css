@@ -1,0 +1,42 @@
+*{
+	font-family: helvetica;
+}
+h3{
+	display: inline-block;
+}
+#container{
+	width:800px;
+	height:800px;
+	display: inline;
+}
+#register{
+	display: inline-block;
+	width:400px;
+}
+#login{
+	display: inline-block;
+	width:400px;
+	vertical-align: top;
+}
+#pokedBy{
+	width:400px;
+	border:1px solid black;
+	padding:10px;
+}
+#logout{
+	display: inline-block;
+	margin-left: 800px;
+}
+#poketable{
+    border-collapse: collapse;
+}
+#poketable table, th, td {
+    border: 1px solid black;
+    padding:5px;
+}
+.green{
+	color:green;
+}
+.red{
+	color:red;
+}
